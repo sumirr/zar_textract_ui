@@ -2,6 +2,10 @@
 
 Flutter UI components for document text extraction applications. This is a **UI-only repository** providing reusable interface components without backend implementation.
 
+## Screenshots
+
+<img src="images/ui_image_1.png" width="300"> <img src="images/ui_image_2.png" width="300"> <img src="images/ui_image_3.png" width="300">
+
 ## What's Included
 
 - 📱 Complete UI screens (auth, document upload, text display)
@@ -21,14 +25,14 @@ flutter pub get
 flutter create --platforms=android,ios,web,macos,linux,windows .
 ```
 
-2. **Implement the service interfaces** in `lib/services/` with your backend:
+3. **Implement the service interfaces** in `lib/services/` with your backend:
    - `AuthService` - Handle user authentication
    - `TextractService` - Document text extraction
    - `UserService` - User profile and subscription management
 
-3. **Configure your backend** (replace placeholders in `amplifyconfiguration.dart`)
+4. **Configure your backend** (replace placeholders in `amplifyconfiguration.dart`)
 
-4. **Run:**
+5. **Run:**
 ```bash
 flutter run
 ```

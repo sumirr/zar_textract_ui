@@ -9,13 +9,6 @@ Flutter UI components for document text extraction applications. This is a **UI-
 - 🔧 Abstract service interfaces (no implementation)
 - 📋 Data models for UI state management
 
-## What's NOT Included
-
-- ❌ Backend implementation
-- ❌ API integration code  
-- ❌ Authentication logic
-- ❌ AWS/cloud service setup
-
 ## Quick Start
 
 1. **Install dependencies:**
